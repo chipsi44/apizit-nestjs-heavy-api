@@ -1,0 +1,46 @@
+{
+  "framework": "nestjs",
+  "profile": "heavy",
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/health"
+    },
+    {
+      "method": "GET",
+      "path": "/info"
+    },
+    {
+      "method": "POST",
+      "path": "/echo"
+    },
+    {
+      "method": "GET",
+      "path": "/items/{item_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/slow"
+    },
+    {
+      "method": "GET",
+      "path": "/ready"
+    },
+    {
+      "method": "POST",
+      "path": "/text/embedding"
+    },
+    {
+      "method": "POST",
+      "path": "/text/similarity"
+    },
+    {
+      "method": "POST",
+      "path": "/image/analyze"
+    },
+    {
+      "method": "POST",
+      "path": "/image/embedding"
+    }
+  ]
+}
