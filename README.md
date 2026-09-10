@@ -73,10 +73,10 @@ The build does not download weights and no repository install lifecycle hook run
 
 ## APIZIT qualification status
 
-The matching platform adapter and hosted launch path are being qualified in the
-APIZIT development environment. Local tests and a published fixture do not prove
-a hosted launch. Follow the platform's reference qualification evidence for the
-exact source commits and observed results. This fixture needs no APIZIT checkout.
+See the platform's [dev qualification report](https://github.com/chipsi44/APIZIT/blob/main/docs/reference-framework-dev-qualification.md)
+for exact source commits, public/private launch results, release checks and
+verification limits. Local tests and repository publication alone do not prove
+a hosted launch. This fixture runs independently and needs no APIZIT checkout.
 
 The measured scan and current backend commercial catalog determine launch eligibility.
 No deployment profile, paid plan or production readiness is promised by this repository.
